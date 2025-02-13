@@ -1,0 +1,38 @@
+{
+    "Algorithm": {
+        "Filter": {
+            "Butterworth": false,
+            "Sinc": false
+        },
+        "Parameter Calculation": {
+            "LSQ": true,
+            "Peek-to-Peek": false
+        },
+        "Parameters": {
+            "Resonance Frequency": 91.0,
+            "Time Constant": 150.0,
+            "k_A": 0.25,
+            "k_f": 1.028,
+            "k_tau": 2.25
+        },
+        "Pulse Detection": {
+            "Crosscorrelation": true,
+            "Trigger Level": false
+        }
+    },
+    "General": {
+        "save_pulses": false,
+        "save_raw_data": false
+    },
+    "Measurement": {
+        "band_pass": {
+            "f0": 50000,
+            "f1": 150000,
+            "order": 10
+        },
+        "flow_rate": 4.795886842675201e+75,
+        "frame_size": 1000,
+        "trigger_level": 0.7,
+        "calibration": 19542.89
+    }
+}

@@ -1,0 +1,23 @@
+{
+  "Algorithm": {
+    "Filter": {
+      "Sinc": true,
+      "Correlation": false,
+      "butterworh": false
+    },
+    "Pulse Detection": {
+      "Trigger Level": true,
+      "Neuronal Network": false
+    },
+    "Parameter Calculation": {
+      "Peek-to-Peek": true,
+      "LSQ": false,
+      "MLE": false
+    }
+  },
+  "Settings": {
+    "buffer_size": 2000000,
+    "frame_size": 600,
+    "trigger_level": 0.1
+  }
+}

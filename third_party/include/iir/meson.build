@@ -1,0 +1,11 @@
+project_header_files += files('Biquad.h',
+                              'Butterworth.h',
+                              'Cascade.h',
+                              'Common.h',
+                              'Custom.h',
+                              'Layout.h',
+                              'MathSupplement.h',
+                              'PoleFilter.h',
+                              'State.h',
+                              'Types.h',
+)

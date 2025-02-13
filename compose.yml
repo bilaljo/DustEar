@@ -1,0 +1,8 @@
+services:
+  qt_app:
+    build: .
+    ports:
+      - "11111:11111"
+    volumes:
+      - ./:/app
+    stdin_open: true
