@@ -64,6 +64,7 @@ void gui::view::charts::Histogram::paintEvent(QPaintEvent *event) {
     QFont font = painter.font();
     font.setPointSize(11);
     painter.setFont(font);
+    set_theme(painter);
     draw_histogram(painter);
 }
 

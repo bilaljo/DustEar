@@ -14,6 +14,8 @@ namespace gui::view::charts {
 
         static void set_theme(QPainter& painter);
 
+        void set_theme_reversed(QPainter& painter);
+
     protected:
         static constexpr int margin = 70;
 
